@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Gallery artwork two</title>
+  <desc id="desc">Abstract hands and color shapes artwork.</desc>
+  <rect width="420" height="300" rx="20" fill="#f7fbf2"/>
+  <rect x="44" y="50" width="112" height="72" rx="22" fill="#007a3d"/>
+  <rect x="264" y="50" width="112" height="72" rx="22" fill="#ff883e"/>
+  <path d="M112 188c52-42 144-42 196 0" fill="none" stroke="#005b33" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="210" cy="132" r="42" fill="#d6a429"/>
+  <path d="M184 136c16 18 36 18 52 0" fill="none" stroke="#17372b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M206 206c8-18 36-16 41 3 13-16 38-4 34 16-4 23-43 35-43 35s-35-18-32-54z" fill="#57b06a"/>
+</svg>

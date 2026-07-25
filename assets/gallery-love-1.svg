@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Gallery artwork one</title>
+  <desc id="desc">Irish green and orange abstract drawing artwork.</desc>
+  <rect width="420" height="300" rx="20" fill="#fff7e8"/>
+  <path d="M0 0h140v300H0z" fill="#e4f1de"/>
+  <path d="M280 0h140v300H280z" fill="#ffe5d0"/>
+  <circle cx="98" cy="92" r="48" fill="#d6a429"/>
+  <path d="M214 94c-26-38-88-10-78 38 8 42 78 82 78 82s70-40 78-82c10-48-52-76-78-38z" fill="#007a3d"/>
+  <path d="M78 230c62-48 202-48 264 0" fill="none" stroke="#17372b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M326 78c8-18 36-16 41 3 13-16 38-4 34 16-4 23-43 35-43 35s-35-18-32-54z" fill="#ff883e"/>
+</svg>

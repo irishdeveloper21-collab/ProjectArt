@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Art of Living Together hero artwork</title>
+  <desc id="desc">Irish child-art inspired shapes, hearts, hands, shamrock forms, and drawing tools.</desc>
+  <rect width="760" height="560" rx="32" fill="#fff7e8"/>
+  <path d="M0 0h254v560H0z" fill="#e4f1de"/>
+  <path d="M506 0h254v560H506z" fill="#ffe5d0"/>
+  <circle cx="158" cy="124" r="72" fill="#d6a429"/>
+  <circle cx="606" cy="152" r="96" fill="#ff883e" opacity=".74"/>
+  <rect x="84" y="328" width="188" height="96" rx="28" fill="#57b06a"/>
+  <rect x="474" y="330" width="196" height="96" rx="28" fill="#fff"/>
+  <path d="M380 162c-38-58-132-18-120 54 10 64 120 128 120 128s110-64 120-128c12-72-82-112-120-54z" fill="#007a3d"/>
+  <path d="M190 378c78-72 302-72 380 0" fill="none" stroke="#17372b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M240 278l-84 120" stroke="#ff883e" stroke-width="22" stroke-linecap="round"/>
+  <path d="M522 274l84 120" stroke="#007a3d" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="306" cy="214" r="14" fill="#17372b"/>
+  <circle cx="454" cy="214" r="14" fill="#17372b"/>
+  <path d="M330 256c24 20 76 20 100 0" fill="none" stroke="#17372b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M112 206c10-24 48-22 54 4 17-22 52-6 46 20-6 30-58 46-58 46s-46-24-42-70z" fill="#007a3d" opacity=".84"/>
+  <path d="M650 234c8-20 40-18 45 3 14-18 43-5 38 17-5 25-48 39-48 39s-39-20-35-59z" fill="#d6a429"/>
+  <path d="M154 276l-14 42" stroke="#007a3d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M686 292l-10 32" stroke="#d6a429" stroke-width="8" stroke-linecap="round"/>
+</svg>

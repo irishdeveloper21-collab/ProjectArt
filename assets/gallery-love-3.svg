@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Gallery artwork three</title>
+  <desc id="desc">Child-art inspired pencil and paper artwork.</desc>
+  <rect width="420" height="300" rx="20" fill="#fff7e8"/>
+  <rect x="80" y="50" width="180" height="190" rx="10" fill="#ffffff" stroke="#b9d8c2" stroke-width="8"/>
+  <path d="M120 106h100M120 146h88M120 186h118" stroke="#57b06a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M286 78l58 58-118 118-58-58z" fill="#ff883e"/>
+  <path d="M344 136l20 20-34 14z" fill="#17372b"/>
+  <path d="M168 196l58 58-72 16z" fill="#007a3d"/>
+  <path d="M302 48c7-16 32-14 36 2 11-14 34-3 30 15-4 20-38 31-38 31s-31-16-28-48z" fill="#d6a429"/>
+</svg>
