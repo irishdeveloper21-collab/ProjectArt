@@ -172,22 +172,6 @@ a {
   background: linear-gradient(90deg, #007a3d 0 33.33%, #ffffff 33.33% 66.66%, #ff883e 66.66% 100%);
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  right: clamp(24px, 7vw, 96px);
-  top: 104px;
-  width: 132px;
-  height: 132px;
-  border: 2px solid rgba(0, 91, 51, 0.2);
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 50% 23%, var(--color-primary) 0 9px, transparent 10px),
-    radial-gradient(circle at 31% 58%, var(--color-primary) 0 9px, transparent 10px),
-    radial-gradient(circle at 69% 58%, var(--color-primary) 0 9px, transparent 10px);
-  opacity: 0.36;
-}
-
 .hero-grid,
 .two-column {
   position: relative;
@@ -669,10 +653,6 @@ textarea {
 
   .hero {
     min-height: auto;
-  }
-
-  .hero::after {
-    display: none;
   }
 }
 
