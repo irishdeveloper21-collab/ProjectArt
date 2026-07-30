@@ -1,33 +1,35 @@
 # Art of Living Together Competition Website
 
-Website for the **Art of Living Together - Love** children's drawing competition in Ireland.
+Website for the **Art of Living Together** annual national drawing competition in Ireland, organised by **Eire Dialogue**.
 
 ## Theme
 
 ```text
-Art of Living Together is Love
+Love
 ```
 
-The site content follows the supplied competition document. The theme text explains love as a force that connects people, builds understanding, supports peaceful living together, and encourages empathy, respect, kindness, solidarity, and patience.
+This year's competition theme is **Love**.
 
 ## Key Dates
 
-- Registration deadline: to be confirmed by the organiser because the source document includes both October 1, 2025 and December 1, 2025
-- Artwork submission deadline: November 1, 2025
-- National grand final: venue and event time to be completed by the organiser
+- 1 October 2026: Official opening
+- 1 October-16 November 2026: Registration and artwork upload are open at the same time
+- 16 November 2026: System closes
+- 17-29 November 2026: Preliminary evaluation
+- 30 November-4 December 2026: Finalists are announced
+- 5 December 2026: Grand Award Ceremony
 
-## Client Information Still Needed
+## Finalists
 
-The site marks these areas with visible organiser completion notes:
+Each category will have 10 finalists.
 
-- Official organisation name
-- Short organiser description
-- Confirmation of eligibility wording: Primary School only, or Primary and Secondary schools
-- Confirmed registration deadline
-- Postal submission name and address
-- Contact email
-- Phone number
-- National grand final venue name, full address, and event time
+## Organiser
+
+The About section uses the supplied Eire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
+
+```text
+www.eiredialogue.ie
+```
 
 ## To Run Locally
 
@@ -36,10 +38,10 @@ Open `index.html` directly in a browser, or use a local static server such as VS
 ## Files
 
 - `index.html` contains the page structure and competition content.
-- `style.css` contains the Ireland-inspired visual theme and motion styling.
+- `style.css` contains the visual theme and motion styling.
 - `script.js` contains scroll animation, mobile navigation, and form interaction.
-- `assets/` contains the hero image, theme image, participation image, exhibition image, and SVG artwork used by the page.
+- `assets/` contains the supplied official logo image and the supporting artwork images used by the page.
 
 ## Form Integration Note
 
-The current front-end form is ready for layout review. For public launch, connect it to the organiser's approved form backend or service after confirming GDPR wording, parental consent handling, data storage, data retention, and authorised access.
+The current front-end form is ready for layout review. For public launch, connect it to the organiser's approved form backend or service after confirming GDPR wording, parental consent handling, artwork upload handling, data storage, data retention, and authorised access.
