@@ -3,10 +3,11 @@ document.body.classList.add("motion-ready");
 const header = document.querySelector("#header");
 const navToggle = document.querySelector(".nav-toggle");
 const navList = document.querySelector("#primary-menu");
-const form = document.querySelector("#registration-form");
-const formMessage = document.querySelector("#form-message");
 const timelineItems = Array.from(document.querySelectorAll(".timeline-item[data-start][data-end]"));
 const flipCards = Array.from(document.querySelectorAll(".flip-card"));
+const registrationLinks = Array.from(document.querySelectorAll("[data-registration-link]"));
+const registrationStatus = document.querySelector("[data-registration-status]");
+const registrationUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdoWwlukrp-uk00PQPO-JQZVB31S5TfeO-MlnkEfAR_bugV2A/viewform";
 
 const updateHeaderState = () => {
   if (!header) {
@@ -104,6 +105,57 @@ const parseLocalDate = (dateValue, endOfDay = false) => {
   return date;
 };
 
+const updateRegistrationAvailability = () => {
+  if (!registrationLinks.length) {
+    return;
+  }
+
+  const registrationEnd = parseLocalDate("2026-10-30", true);
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const isOpen = today <= registrationEnd;
+
+  registrationLinks.forEach((link) => {
+    const isRegistrationCardButton = Boolean(link.closest(".registration-form"));
+
+    if (isOpen) {
+      link.href = registrationUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.removeAttribute("aria-disabled");
+      link.classList.remove("is-disabled", "is-unavailable");
+      link.textContent = link.dataset.originalText || link.textContent;
+      return;
+    }
+
+    link.dataset.originalText = link.dataset.originalText || link.textContent;
+    link.removeAttribute("target");
+    link.removeAttribute("rel");
+    link.classList.add("is-unavailable");
+
+    if (isRegistrationCardButton) {
+      link.removeAttribute("href");
+      link.setAttribute("aria-disabled", "true");
+      link.classList.add("is-disabled");
+      link.textContent = "Registration Closed";
+      return;
+    }
+
+    link.href = "#registration";
+  });
+
+  if (!registrationStatus) {
+    return;
+  }
+
+  if (isOpen) {
+    registrationStatus.textContent = "Registration is open. Please complete the Google Form before posting the original drawing.";
+    return;
+  }
+
+  registrationStatus.textContent = "Registration closed on 30 October 2026. The Google Form is no longer available.";
+};
+
 const updateTimelineStage = () => {
   if (!timelineItems.length) {
     return;
@@ -146,10 +198,4 @@ const updateTimelineStage = () => {
 };
 
 updateTimelineStage();
-
-if (form && formMessage) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    formMessage.textContent = "Thank you. Registration and artwork upload details have been received. Please make sure all student, school, teacher, and artwork message details are complete before the system closes on 16 November 2026.";
-  });
-}
+updateRegistrationAvailability();
