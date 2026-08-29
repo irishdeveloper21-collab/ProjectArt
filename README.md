@@ -1,6 +1,6 @@
 # Art of Living Together Competition Website
 
-Website for the **Art of Living Together** annual national drawing competition in Ireland, organised by **Eire Dialogue**.
+Website for the **Art of Living Together** annual national drawing competition in Ireland, organised by **Éire Dialogue**.
 
 ## Theme
 
@@ -23,7 +23,7 @@ Each category will have 10 finalists.
 
 ## Organiser
 
-The About section uses the supplied Eire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
+The About section uses the supplied Éire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
 
 ```text
 www.eiredialogue.ie
@@ -53,5 +53,5 @@ The Google Form link is enabled by JavaScript until the registration deadline, 3
 Original drawings should be posted to:
 
 ```text
-Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Eiredialogue
+Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue
 ```
