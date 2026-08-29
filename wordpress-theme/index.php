@@ -1,60 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Art of Living Together Drawing Competition 2026</title>
-  <meta name="description" content="Art of Living Together is a national drawing competition by Eire Dialogue for primary school children in Ireland, inviting young artists to explore the 2026 theme: Love.">
-  <link rel="canonical" href="https://art.eiredialogue.ie/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Art of Living Together Drawing Competition 2026">
-  <meta property="og:description" content="A national drawing competition for primary school children in Ireland, organised by Eire Dialogue around the 2026 theme: Love.">
-  <meta property="og:url" content="https://art.eiredialogue.ie/">
-  <meta property="og:image" content="https://art.eiredialogue.ie/hero-love-ireland.jpg">
-  <meta property="og:site_name" content="Art of Living Together">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Art of Living Together Drawing Competition 2026">
-  <meta name="twitter:description" content="A national drawing competition for primary school children in Ireland, organised by Eire Dialogue around the 2026 theme: Love.">
-  <meta name="twitter:image" content="https://art.eiredialogue.ie/hero-love-ireland.jpg">
-  <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Art of Living Together Drawing Competition 2026",
-      "description": "Art of Living Together is a national drawing competition by Eire Dialogue for primary school children in Ireland, inviting young artists to explore the 2026 theme: Love.",
-      "url": "https://art.eiredialogue.ie/",
-      "image": ["https://art.eiredialogue.ie/hero-love-ireland.jpg"],
-      "startDate": "2026-09-21",
-      "endDate": "2026-12-05",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "organizer": {
-        "@type": "Organization",
-        "name": "Eire Dialogue",
-        "url": "https://www.eiredialogue.ie/",
-        "logo": "https://art.eiredialogue.ie/art-of-living-together-logo-cropped.jpg"
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Eire Dialogue",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Motorcity, Kylemore Rd, Inchicore",
-          "addressLocality": "Dublin",
-          "postalCode": "D12 TFR7",
-          "addressCountry": "IE"
-        }
-      }
-    }
-  </script>
+  <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
   <header class="site-header" id="header">
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="#hero" aria-label="Art of Living Together home">
         <span class="brand-logo" aria-hidden="true">
-          <img src="assets/images/art-of-living-together-logo-cropped.jpg" alt="">
+          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="">
         </span>
         <span>Art of Living Together</span>
       </a>
@@ -90,7 +47,7 @@
           </div>
         </div>
         <div class="hero-art official-logo-card" aria-label="Official Art of Living Together competition logo">
-          <img src="assets/images/art-of-living-together-logo-cropped.jpg" alt="Art of Living Together official logo">
+          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="Art of Living Together official logo">
         </div>
       </div>
     </section>
@@ -101,7 +58,7 @@
         <h2 id="about-title">A creative invitation to young artists</h2>
         <div class="about-competition-layout">
           <figure class="section-photo about-photo">
-            <img src="assets/images/hero-love-ireland.jpg" alt="Children's drawings about love, Ireland, and living together on an art table">
+            <img src="<?php echo esc_url(get_theme_file_uri('hero-love-ireland.jpg')); ?>" alt="Children's drawings about love, Ireland, and living together on an art table">
           </figure>
           <div class="content-block">
             <h3>About the "Art of Living Together" Drawing Competition</h3>
@@ -121,7 +78,7 @@
         <h2 id="theme-title">This year's theme is "Love"</h2>
         <p class="section-lead">Love is the invisible thread that connects people beyond all differences. It is not only a feeling; it is an action, a choice to care, to listen, and to understand.</p>
         <figure class="section-photo theme-photo">
-          <img src="assets/images/classroom-love-art.jpg" alt="Children drawing together in a warm classroom with hearts, artwork, and community themes">
+          <img src="<?php echo esc_url(get_theme_file_uri('classroom-love-art.jpg')); ?>" alt="Children drawing together in a warm classroom with hearts, artwork, and community themes">
         </figure>
         <div class="card-grid four-cards">
           <article class="card">
@@ -216,7 +173,7 @@
             <li>Post drawings to: Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue.</li>
           </ol>
           <figure class="section-photo participate-photo">
-            <img src="assets/images/participation-postal-art.jpg" alt="Hands preparing a love and living together artwork submission with Irish colour art materials">
+            <img src="<?php echo esc_url(get_theme_file_uri('participation-postal-art.jpg')); ?>" alt="Hands preparing a love and living together artwork submission with Irish colour art materials">
           </figure>
         </div>
       </div>
@@ -308,12 +265,12 @@
         <h2 id="gallery-title">Artwork inspiration</h2>
         <p class="section-lead">These illustrations reflect the spirit of the competition: love, empathy, creativity, and the shared life of communities across Ireland.</p>
         <figure class="section-photo exhibition-photo">
-          <img src="assets/images/gallery-exhibition-wall.jpg" alt="Gallery wall displaying children's artwork for a love and living together exhibition">
+          <img src="<?php echo esc_url(get_theme_file_uri('gallery-exhibition-wall.jpg')); ?>" alt="Gallery wall displaying children's artwork for a love and living together exhibition">
         </figure>
         <div class="gallery-grid">
-          <img src="assets/images/gallery-community-heart.jpg" alt="Children's artwork showing diverse children holding hands inside a heart">
-          <img src="assets/images/gallery-world-together.jpg" alt="Children's artwork showing people together around the world">
-          <img src="assets/images/participation-postal-art.jpg" alt="Hands preparing a love and living together artwork submission with Irish colour art materials">
+          <img src="<?php echo esc_url(get_theme_file_uri('gallery-community-heart.jpg')); ?>" alt="Children's artwork showing diverse children holding hands inside a heart">
+          <img src="<?php echo esc_url(get_theme_file_uri('gallery-world-together.jpg')); ?>" alt="Children's artwork showing people together around the world">
+          <img src="<?php echo esc_url(get_theme_file_uri('participation-postal-art.jpg')); ?>" alt="Hands preparing a love and living together artwork submission with Irish colour art materials">
         </div>
       </div>
     </section>
@@ -365,7 +322,7 @@
             <p><a href="https://www.eiredialogue.ie">www.eiredialogue.ie</a></p>
           </div>
           <figure class="section-photo logo-photo">
-            <img src="assets/images/art-of-living-together-logo-cropped.jpg" alt="Art of Living Together logo supplied by Éire Dialogue">
+            <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="Art of Living Together logo supplied by Éire Dialogue">
           </figure>
         </div>
       </div>
@@ -379,6 +336,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
+

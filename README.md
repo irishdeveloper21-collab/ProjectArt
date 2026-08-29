@@ -1,6 +1,6 @@
-# Art of Living Together Competition Website
+﻿# Art of Living Together Competition Website
 
-Website for the **Art of Living Together** annual national drawing competition in Ireland, organised by **Éire Dialogue**.
+Website for the **Art of Living Together** annual national drawing competition in Ireland, organised by **Eire Dialogue**.
 
 ## Theme
 
@@ -23,7 +23,7 @@ Each category will have 10 finalists.
 
 ## Organiser
 
-The About section uses the supplied Éire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
+The About section uses the supplied Eire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
 
 ```text
 www.eiredialogue.ie
@@ -35,10 +35,24 @@ Open `index.html` directly in a browser, or use a local static server such as VS
 
 ## Files
 
-- `index.html` contains the page structure and competition content.
+- `index.html` contains the static page structure, competition content, and SEO metadata.
 - `style.css` contains the visual theme and motion styling.
-- `script.js` contains scroll animation, mobile navigation, card interaction, and timeline status logic.
-- `assets/` contains the supplied official logo image and the supporting artwork images used by the page.
+- `script.js` contains scroll animation, mobile navigation, card interaction, registration link reinforcement, and timeline status logic.
+- `assets/` contains the supplied original logo and artwork assets.
+- `assets/images/` contains optimized JPG images for the static HTML build.
+- `wordpress-theme/` contains the WordPress classic theme source used to generate the uploadable theme zip.
+
+## SEO
+
+The static HTML page includes:
+
+- SEO title and meta description
+- Canonical URL for `https://art.eiredialogue.ie/`
+- Open Graph tags for WhatsApp/Facebook sharing
+- Twitter card tags
+- JSON-LD `Event` structured data
+
+The WordPress theme includes the same SEO metadata through `wp_head` in `wordpress-theme/functions.php`.
 
 ## Registration Form
 
@@ -48,10 +62,20 @@ The Register call to action points to the organiser's approved Google Form:
 https://docs.google.com/forms/d/e/1FAIpQLSdoWwlukrp-uk00PQPO-JQZVB31S5TfeO-MlnkEfAR_bugV2A/viewform
 ```
 
-The Google Form link is enabled by JavaScript until the registration deadline, 30 October 2026. After that date, the registration card shows a closed message.
+The Google Form link is present directly in the HTML. JavaScript reinforces the same link, but registration does not depend on JavaScript being loaded.
 
 Original drawings should be posted to:
 
 ```text
-Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue
+Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Eire Dialogue
 ```
+
+## WordPress Upload Package
+
+The current uploadable WordPress package is kept one level above this repository:
+
+```text
+../art-of-living-together-competition-root-images-seo-20260829160119.zip
+```
+
+The package uses the `wordpress-theme/` source, with theme images stored in the theme root because the target WordPress hosting did not reliably extract nested image folders during upload.
