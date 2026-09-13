@@ -39,7 +39,7 @@ function aolt_competition_seo_data() {
         'description' => 'Art of Living Together is a national drawing competition by Eire Dialogue for primary school children in Ireland, inviting young artists to explore the 2026 theme: Love.',
         'url' => home_url('/'),
         'image' => aolt_competition_image_url('hero-love-ireland.jpg'),
-        'logo' => aolt_competition_image_url('art-of-living-together-logo-cropped.jpg'),
+        'logo' => aolt_competition_image_url('art-of-living-together-logo-tight.jpg'),
     );
 }
 

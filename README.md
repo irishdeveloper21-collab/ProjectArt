@@ -42,6 +42,11 @@ Open `index.html` directly in a browser, or use a local static server such as VS
 - `assets/images/` contains optimized JPG images for the static HTML build.
 - `wordpress-theme/` contains the WordPress classic theme source used to generate the uploadable theme zip.
 
+## Logo and Site Icon
+
+- Header, hero, and organiser logos use `assets/images/art-of-living-together-logo-tight.jpg`.
+- WordPress Site Icon can use `assets/images/art-of-living-together-site-icon.jpg` for a more visible 512 x 512 square icon.
+
 ## SEO
 
 The static HTML page includes:

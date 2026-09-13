@@ -11,7 +11,7 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="#hero" aria-label="Art of Living Together home">
         <span class="brand-logo" aria-hidden="true">
-          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="">
+          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-tight.jpg')); ?>" alt="">
         </span>
         <span>Art of Living Together</span>
       </a>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="hero-art official-logo-card" aria-label="Official Art of Living Together competition logo">
-          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="Art of Living Together official logo">
+          <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-tight.jpg')); ?>" alt="Art of Living Together official logo">
         </div>
       </div>
     </section>
@@ -322,7 +322,7 @@
             <p><a href="https://www.eiredialogue.ie">www.eiredialogue.ie</a></p>
           </div>
           <figure class="section-photo logo-photo">
-            <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-cropped.jpg')); ?>" alt="Art of Living Together logo supplied by Éire Dialogue">
+            <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-tight.jpg')); ?>" alt="Art of Living Together logo supplied by Éire Dialogue">
           </figure>
         </div>
       </div>
