@@ -246,15 +246,29 @@
     </section>
 
     <section class="section section-tint jury-section" id="jury" aria-labelledby="jury-title">
-      <div class="section-inner two-column">
+      <div class="section-inner">
         <header class="section-header">
           <p class="eyebrow">Jury</p>
           <h2 id="jury-title">Judging panel</h2>
         </header>
-        <div class="content-block">
-          <p>All drawings will be reviewed by the organising team during the evaluation and finalist selection period from 31 October to 15 November 2026.</p>
-          <p>The strongest works will then be considered by the jury, with 10 finalists selected from each category.</p>
-          <p>Artwork will be reviewed for connection to the theme, creativity, originality, effort, composition, and age-appropriate artistic expression.</p>
+        <div class="jury-cards">
+          <div class="content-block">
+            <p>All drawings will be reviewed by the organising team during the evaluation and finalist selection period from 31 October to 15 November 2026.</p>
+            <p>The strongest works will then be considered by the jury, with 10 finalists selected from each category.</p>
+            <p>Artwork will be reviewed for connection to the theme, creativity, originality, effort, composition, and age-appropriate artistic expression.</p>
+          </div>
+          <aside class="jury-panel" aria-labelledby="jury-members-title">
+            <h3 class="jury-list-title" id="jury-members-title">Jury members</h3>
+            <ul class="jury-list">
+              <li>Geraldine O'Reilly</li>
+              <li>Peter Curling</li>
+              <li>Dr Timothy Stott</li>
+              <li>Siobhán Mulcahy</li>
+              <li>Johanne Mullan</li>
+              <li>Brian Maguire</li>
+              <li>Alice Maher</li>
+            </ul>
+          </aside>
         </div>
       </div>
     </section>

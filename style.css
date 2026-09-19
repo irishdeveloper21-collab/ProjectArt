@@ -549,6 +549,67 @@ a {
   margin-top: 0;
 }
 
+.jury-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+  margin-top: 28px;
+}
+
+.jury-panel {
+  padding: 26px;
+  color: #ffffff;
+  background:
+    linear-gradient(135deg, rgba(0, 122, 61, 0.96), rgba(0, 73, 43, 0.98)),
+    var(--color-primary-dark);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-top: 5px solid var(--color-secondary);
+  border-radius: var(--radius-card);
+  box-shadow: 0 18px 42px rgba(17, 76, 52, 0.24);
+}
+
+.jury-list-title {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: 1.45rem;
+}
+
+.jury-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.jury-list li {
+  position: relative;
+  padding: 12px 14px 12px 36px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.jury-list li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  width: 10px;
+  height: 10px;
+  background: var(--color-secondary);
+  border: 2px solid rgba(255, 255, 255, 0.72);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(255, 136, 62, 0.22);
+  transform: translateY(-50%);
+}
+
 .card-meta {
   color: var(--color-primary-dark);
   font-weight: 800;
@@ -920,6 +981,7 @@ textarea {
   .participate-layout,
   .rules-grid,
   .gallery-grid,
+  .jury-cards,
   .timeline {
     grid-template-columns: 1fr;
   }
@@ -982,6 +1044,10 @@ textarea {
   }
 
   .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jury-list {
     grid-template-columns: 1fr;
   }
 }

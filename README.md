@@ -21,6 +21,18 @@ This year's competition theme is **Love**.
 
 Each category will have 10 finalists.
 
+## Jury
+
+The judging panel is listed on the website:
+
+- Geraldine O'Reilly
+- Peter Curling
+- Dr Timothy Stott
+- Siobhán Mulcahy
+- Johanne Mullan
+- Brian Maguire
+- Alice Maher
+
 ## Organiser
 
 The About section uses the supplied Eire Dialogue organiser text and the supplied Art of Living Together competition description. The official website is linked as:
@@ -80,7 +92,7 @@ Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Eire Dialogue
 The current uploadable WordPress package is kept one level above this repository:
 
 ```text
-../art-of-living-together-competition-root-images-seo-20260829160119.zip
+../art-of-living-together-competition-jury-20260919.zip
 ```
 
 The package uses the `wordpress-theme/` source, with theme images stored in the theme root because the target WordPress hosting did not reliably extract nested image folders during upload.
