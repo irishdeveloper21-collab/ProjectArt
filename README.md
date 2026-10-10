@@ -87,12 +87,20 @@ Original drawings should be posted to:
 Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Eire Dialogue
 ```
 
+Competition enquiries can be sent to:
+
+```text
+art@eiredialogue.ie
+```
+
+The registration callout, organiser section, and footer link to this address with an "Art of Living Together Competition Enquiry" subject line.
+
 ## WordPress Upload Package
 
 The current uploadable WordPress package is kept one level above this repository:
 
 ```text
-../art-of-living-together-competition-jury-20260919.zip
+../art-of-living-together-competition-contact-email-20261010.zip
 ```
 
 The package uses the `wordpress-theme/` source, with theme images stored in the theme root because the target WordPress hosting did not reliably extract nested image folders during upload.

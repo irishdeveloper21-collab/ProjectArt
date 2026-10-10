@@ -3,7 +3,7 @@ Theme Name: Art of Living Together Competition Root Images SEO
 Theme URI: https://www.eiredialogue.ie/
 Author: Éire Dialogue
 Description: Single-page WordPress theme for the Art of Living Together drawing competition.
-Version: 1.5.2
+Version: 1.5.3
 Requires at least: 6.0
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -853,6 +853,65 @@ textarea {
   font-weight: 800;
 }
 
+.organiser-contact-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 20px;
+  margin-top: 28px;
+  background:
+    linear-gradient(110deg, rgba(0, 122, 61, 0.08), rgba(255, 255, 255, 0.96) 55%, rgba(255, 136, 62, 0.12)),
+    var(--color-surface);
+  border-top-color: var(--color-secondary);
+}
+
+.contact-icon {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 0 10px 22px rgba(0, 91, 51, 0.2);
+}
+
+.contact-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.contact-copy h3,
+.contact-copy p {
+  margin: 0;
+}
+
+.contact-copy p {
+  margin-top: 4px;
+  color: var(--color-muted);
+}
+
+.contact-email {
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  overflow-wrap: anywhere;
+  text-underline-offset: 3px;
+}
+
+.contact-email:hover,
+.contact-email:focus-visible {
+  color: var(--color-primary);
+}
+
+.contact-button {
+  white-space: nowrap;
+}
+
 .site-footer {
   padding: 28px 0;
   color: #ffffff;
@@ -870,6 +929,17 @@ textarea {
 
 .footer-inner p {
   margin: 0;
+}
+
+.site-footer a {
+  color: #f8d778;
+  font-weight: 800;
+  text-underline-offset: 3px;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #ffffff;
 }
 
 .footer-note {
@@ -1002,6 +1072,15 @@ textarea {
   .hero {
     min-height: auto;
   }
+
+  .organiser-contact-card {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .contact-button {
+    grid-column: 2;
+    justify-self: start;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1062,5 +1141,13 @@ textarea {
 
   .jury-list {
     grid-template-columns: 1fr;
+  }
+
+  .organiser-contact-card {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-button {
+    grid-column: auto;
   }
 }

@@ -301,7 +301,7 @@
             <span class="registration-action-panel">
               <a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdoWwlukrp-uk00PQPO-JQZVB31S5TfeO-MlnkEfAR_bugV2A/viewform" target="_blank" rel="noopener" data-registration-link>Open Registration Form</a>
             </span>
-            <a class="button button-secondary" href="#contact">Contact Organiser</a>
+            <a class="button button-secondary" href="mailto:art@eiredialogue.ie?subject=Art%20of%20Living%20Together%20Competition%20Enquiry">Contact Organiser</a>
           </div>
           <p class="form-note" data-registration-status>Please complete the Google Form before posting the original drawing.</p>
         </div>
@@ -339,6 +339,19 @@
             <img src="<?php echo esc_url(get_theme_file_uri('art-of-living-together-logo-tight.jpg')); ?>" alt="Art of Living Together logo supplied by Éire Dialogue">
           </figure>
         </div>
+        <div class="contact-card organiser-contact-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M3 5.5h18v13H3z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+          </span>
+          <div class="contact-copy">
+            <h3>Have a question?</h3>
+            <p>For questions about registration, artwork submission or the competition, email us at <a class="contact-email" href="mailto:art@eiredialogue.ie?subject=Art%20of%20Living%20Together%20Competition%20Enquiry">art@eiredialogue.ie</a>.</p>
+          </div>
+          <a class="button button-primary contact-button" href="mailto:art@eiredialogue.ie?subject=Art%20of%20Living%20Together%20Competition%20Enquiry">Email the Organiser</a>
+        </div>
       </div>
     </section>
   </main>
@@ -346,6 +359,7 @@
   <footer class="site-footer" id="footer">
     <div class="section-inner footer-inner">
       <p>&copy; 2026 Art of Living Together. Organised by Éire Dialogue.</p>
+      <p class="footer-contact">Questions? <a href="mailto:art@eiredialogue.ie?subject=Art%20of%20Living%20Together%20Competition%20Enquiry">art@eiredialogue.ie</a></p>
       <p>Together, through art and dialogue, we celebrate the beauty of living together.</p>
     </div>
   </footer>
