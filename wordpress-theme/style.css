@@ -3,7 +3,7 @@ Theme Name: Art of Living Together Competition Root Images SEO
 Theme URI: https://www.eiredialogue.ie/
 Author: Éire Dialogue
 Description: Single-page WordPress theme for the Art of Living Together drawing competition.
-Version: 1.5.3
+Version: 1.5.4
 Requires at least: 6.0
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -57,6 +57,24 @@ img {
 
 a {
   color: var(--color-primary-dark);
+}
+
+.deadline-announcement {
+  padding: 24px 0;
+  color: var(--color-primary-dark);
+  background: #fff1d6;
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.deadline-announcement h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.25rem, 3vw, 1.65rem);
+  line-height: 1.3;
+}
+
+.deadline-announcement p {
+  max-width: 80ch;
+  margin: 0;
 }
 
 .site-header {

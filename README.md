@@ -12,10 +12,14 @@ This year's competition theme is **Love**.
 
 ## Key Dates
 
-- Registration is open now and closes on 30 October 2026
-- 21 September-30 October 2026: Postal artwork submission period
-- 31 October-15 November 2026: Evaluation and finalist selection
+- Registration is open now and closes on 15 November 2026 (extended from 30 October)
+- 21 September-15 November 2026: Postal artwork submission period
+- 16 November-1 December 2026: Evaluation and finalist selection
 - 5 December 2026: Grand Award Ceremony
+
+The deadline announcement, participation instructions, submission rules, registration messages, and timeline are kept in sync in both the static HTML and WordPress theme. The deadline is for posting the original artwork after online registration.
+
+The evaluation period is shifted by the same 16 days as the submission deadline extension, preserving the original evaluation duration before the 5 December award ceremony.
 
 ## Finalists
 
@@ -81,6 +85,8 @@ https://docs.google.com/forms/d/e/1FAIpQLSdoWwlukrp-uk00PQPO-JQZVB31S5TfeO-MlnkE
 
 The Google Form link is present directly in the HTML. JavaScript reinforces the same link, but registration does not depend on JavaScript being loaded.
 
+The local Google Form creation template is in `../google-form-template/`. Its deadline text is updated to 15 November 2026. Updating this template does not change the existing official Google Form; the organiser must update its description and response acceptance settings separately.
+
 Original drawings should be posted to:
 
 ```text
@@ -100,7 +106,7 @@ The registration callout, organiser section, and footer link to this address wit
 The current uploadable WordPress package is kept one level above this repository:
 
 ```text
-../art-of-living-together-competition-contact-email-20261010.zip
+../art-of-living-together-competition-deadline-20261026.zip
 ```
 
 The package uses the `wordpress-theme/` source, with theme images stored in the theme root because the target WordPress hosting did not reliably extract nested image folders during upload.

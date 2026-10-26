@@ -35,6 +35,13 @@
   </header>
 
   <main>
+    <aside class="deadline-announcement" aria-labelledby="deadline-announcement-title">
+      <div class="section-inner">
+        <h2 id="deadline-announcement-title">Deadline extended to <time datetime="2026-11-15">15 November 2026</time>!</h2>
+        <p>You can register and post your original artwork until 15 November 2026. Please complete the online registration form before posting your artwork.</p>
+      </div>
+    </aside>
+
     <section class="hero section" id="hero" aria-labelledby="hero-title">
       <div class="section-inner hero-grid">
         <div class="hero-copy">
@@ -166,8 +173,8 @@
         <h2 id="participate-title">Registration and artwork posting open together</h2>
         <div class="participate-layout">
           <ol class="steps">
-            <li>Register individually or as a class before 30 October 2026.</li>
-            <li>Send the original drawing by post between 21 September and 30 October 2026.</li>
+            <li>Register individually or as a class by 15 November 2026.</li>
+            <li>Send the original drawing by post between 21 September and 15 November 2026.</li>
             <li>Create an original drawing on a white A4 sheet, guided by the theme of Love and living together.</li>
             <li>Use accepted materials: painting, markers, pencil, coloured pencils, or pastels.</li>
             <li>Post drawings to: Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue.</li>
@@ -218,7 +225,7 @@
           </div>
           <div class="content-block wide">
             <h3>Submission Details</h3>
-            <p>Registration is open now and closes on 30 October 2026. Postal artwork submission runs from 21 September to 30 October 2026. Drawings should be sent to: Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue.</p>
+            <p>Registration is open now and closes on 15 November 2026. Postal artwork submission runs from 21 September to 15 November 2026. Please complete online registration before posting your original drawing to: Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue.</p>
           </div>
         </div>
       </div>
@@ -229,12 +236,12 @@
         <p class="eyebrow">Timeline</p>
         <h2 id="timeline-title">Important dates</h2>
         <div class="timeline">
-          <article class="timeline-item" data-start="2026-09-21" data-end="2026-10-30">
-            <h3>21 September-30 October 2026</h3>
-            <p>Artwork posting period. Registration remains open until 30 October 2026.</p>
+          <article class="timeline-item" data-start="2026-09-21" data-end="2026-11-15">
+            <h3>21 September-15 November 2026</h3>
+            <p>Artwork posting period. Registration remains open until 15 November 2026.</p>
           </article>
-          <article class="timeline-item" data-start="2026-10-31" data-end="2026-11-15">
-            <h3>31 October-15 November 2026</h3>
+          <article class="timeline-item" data-start="2026-11-16" data-end="2026-12-01">
+            <h3>16 November-1 December 2026</h3>
             <p>Evaluation and finalist selection.</p>
           </article>
           <article class="timeline-item" data-start="2026-12-05" data-end="2026-12-05">
@@ -253,7 +260,7 @@
         </header>
         <div class="jury-cards">
           <div class="content-block">
-            <p>All drawings will be reviewed by the organising team during the evaluation and finalist selection period from 31 October to 15 November 2026.</p>
+            <p>All drawings will be reviewed by the organising team during the evaluation and finalist selection period from 16 November to 1 December 2026.</p>
             <p>The strongest works will then be considered by the jury, with 10 finalists selected from each category.</p>
             <p>Artwork will be reviewed for connection to the theme, creativity, originality, effort, composition, and age-appropriate artistic expression.</p>
           </div>
@@ -293,7 +300,7 @@
       <div class="section-inner">
         <p class="eyebrow">Registration</p>
         <h2 id="registration-title">Official registration form</h2>
-        <p class="section-lead">Registration is open now and closes on 30 October 2026. Artwork should be sent by post after online registration.</p>
+        <p class="section-lead">Registration and postal artwork submissions are open until 15 November 2026. Please complete online registration before posting your original artwork.</p>
         <div class="registration-form registration-callout">
           <p>Use the official Google Form to complete registration before sending the original drawing by post.</p>
           <p><strong>Postal address:</strong> Motorcity, Kylemore Rd, Inchicore, Dublin 12, D12 TFR7 / Éire Dialogue</p>
@@ -303,7 +310,7 @@
             </span>
             <a class="button button-secondary" href="mailto:art@eiredialogue.ie?subject=Art%20of%20Living%20Together%20Competition%20Enquiry">Contact Organiser</a>
           </div>
-          <p class="form-note" data-registration-status>Please complete the Google Form before posting the original drawing.</p>
+          <p class="form-note" data-registration-status>Registration and postal artwork submission deadline: 15 November 2026. Please complete the Google Form before posting the original drawing.</p>
         </div>
       </div>
     </section>

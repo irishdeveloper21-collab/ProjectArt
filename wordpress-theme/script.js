@@ -119,7 +119,7 @@ const updateRegistrationAvailability = () => {
   });
 
   if (registrationStatus) {
-    registrationStatus.textContent = "Registration is open. Please complete the Google Form before posting the original drawing.";
+    registrationStatus.textContent = "Registration and postal artwork submission deadline: 15 November 2026. Please complete the Google Form before posting the original drawing.";
   }
 };
 
